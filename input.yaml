@@ -1,0 +1,20 @@
+src: &s
+  a: b
+  c: d
+  e: f
+  seq:
+    - 1
+    - 2
+  seq2:
+    - c
+  map:
+    a: b
+    c: d
+block:
+  <<: *s
+  # a: c
+  # # Inherits c: d, and seq
+  # seq2:
+  #   - d
+  # map:
+  #   e: f

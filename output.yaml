@@ -1,0 +1,20 @@
+src:
+  a: b
+  seq:
+  - "1"
+  - "2"
+  seq2:
+  - c
+  map:
+    a: b
+    c: d
+block:
+  a: new
+  seq:
+  - "2"
+  - "2"
+  seq2:
+  - c
+  map:
+    a: b
+    c: d
