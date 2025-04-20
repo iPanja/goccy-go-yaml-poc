@@ -34,6 +34,7 @@ func main() {
 	print("Parsed")
 
 	// Test modifications
+	//	These modifications unfortunately do not affect the `src` block, despite utilizing pointers
 	new := "new"
 	data.Block.A = &new
 	(*data.Block.Sequence)[0] = "2"

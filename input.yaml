@@ -12,6 +12,7 @@ src: &s
     c: d
 block:
   <<: *s
+  # goccy throws an error for duplicate keys, this includes if the key is exists within a merge key
   # a: c
   # # Inherits c: d, and seq
   # seq2:
